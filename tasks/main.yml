@@ -1,0 +1,9 @@
+---
+# tasks file for ntp
+
+
+
+- import_tasks: prerequi.yml
+- import_tasks: install.yml
+- import_tasks: conf.yml
+

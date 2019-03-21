@@ -1,0 +1,4 @@
+
+
+- name: remove chrony
+  yum: name=chrony state=absent
